@@ -42,6 +42,18 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Windows.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows.Resource, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\Windows.Resource.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FrmApp.cs">
@@ -79,22 +91,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Windows.Forms\Windows.Forms.csproj">
-      <Project>{9b4b6278-5d5a-4e6c-84ee-8918c6769e9d}</Project>
-      <Name>Windows.Forms</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\frmBackGrund_one.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\frmBackGrund_two.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\btnMetroAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\frmBackGrund_view.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btnMetroAdd.png" />
+    <None Include="Resources\btnMetro_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMetro_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMetro_3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

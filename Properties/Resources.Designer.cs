@@ -63,9 +63,29 @@ namespace Windows.App.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap btnMetroAdd {
+        internal static System.Drawing.Bitmap btnMetro_1 {
             get {
-                object obj = ResourceManager.GetObject("btnMetroAdd", resourceCulture);
+                object obj = ResourceManager.GetObject("btnMetro_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btnMetro_2 {
+            get {
+                object obj = ResourceManager.GetObject("btnMetro_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btnMetro_3 {
+            get {
+                object obj = ResourceManager.GetObject("btnMetro_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

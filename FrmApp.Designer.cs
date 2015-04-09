@@ -81,18 +81,11 @@
             Windows.Forms.Controls.MyList.MyListSubItem myListSubItem12 = new Windows.Forms.Controls.MyList.MyListSubItem();
             Windows.Forms.Controls.MyList.MyListSubItem myListSubItem13 = new Windows.Forms.Controls.MyList.MyListSubItem();
             Windows.Forms.Controls.MyList.MyListSubItem myListSubItem14 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem15 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem16 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem17 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem18 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem19 = new Windows.Forms.Controls.MyList.MyListSubItem();
-            Windows.Forms.Controls.MyList.MyListSubItem myListSubItem20 = new Windows.Forms.Controls.MyList.MyListSubItem();
             this.qqTextBox2 = new Windows.Forms.Controls.QQControls.QQTextBox();
             this.myListBox1 = new Windows.Forms.Controls.MyListBox.MyListBox();
-            this.qqGlassButton1 = new Windows.Forms.Controls.QQControls.QQGlassButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.myList2 = new Windows.Forms.Controls.MyList.MyList();
             this.myList1 = new Windows.Forms.Controls.MyList.MyList();
-            ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -394,40 +387,28 @@
             this.myListBox1.TabIndex = 49;
             this.myListBox1.Text = "myListBox1";
             // 
-            // qqGlassButton1
-            // 
-            this.qqGlassButton1.BackColor = System.Drawing.Color.Transparent;
-            this.qqGlassButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.qqGlassButton1.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.qqGlassButton1.Image = global::Windows.App.Properties.Resources.btnMetroAdd;
-            this.qqGlassButton1.Location = new System.Drawing.Point(6, 28);
-            this.qqGlassButton1.Name = "qqGlassButton1";
-            this.qqGlassButton1.Size = new System.Drawing.Size(36, 35);
-            this.qqGlassButton1.TabIndex = 50;
-            this.qqGlassButton1.TabStop = false;
-            this.qqGlassButton1.ToolTipText = "系统设置";
-            // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::Windows.App.Properties.Resources.frmBackGrund_view;
+            this.panel1.Controls.Add(this.myList2);
             this.panel1.Controls.Add(this.myList1);
             this.panel1.Location = new System.Drawing.Point(288, 73);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(986, 677);
             this.panel1.TabIndex = 51;
             // 
-            // myList1
+            // myList2
             // 
-            this.myList1.BackColor = System.Drawing.Color.White;
-            this.myList1.IconSizeMode = Windows.Forms.Controls.MyList.MyListItemIcon.SuperSmall5;
-            this.myList1.IsShowImage = true;
-            this.myList1.ItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.myList1.ItemMouseOnColor = System.Drawing.Color.LightSkyBlue;
+            this.myList2.BackColor = System.Drawing.Color.White;
+            this.myList2.IconSizeMode = Windows.Forms.Controls.MyList.MyListItemIcon.SuperSmall5;
+            this.myList2.IsShowImage = true;
+            this.myList2.ItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myList2.ItemMouseOnColor = System.Drawing.Color.LightSkyBlue;
             myListSubItem1.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem1.HeadImage")));
             myListSubItem1.ID = 0;
             myListSubItem1.Info = "信息";
             myListSubItem1.IsTwinkle = false;
-            myListSubItem1.Name = "姚姚";
+            myListSubItem1.Name = "Item";
             myListSubItem1.Url = null;
             myListSubItem2.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem2.HeadImage")));
             myListSubItem2.ID = 0;
@@ -507,42 +488,6 @@
             myListSubItem14.IsTwinkle = false;
             myListSubItem14.Name = "Item";
             myListSubItem14.Url = null;
-            myListSubItem15.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem15.HeadImage")));
-            myListSubItem15.ID = 0;
-            myListSubItem15.Info = "信息";
-            myListSubItem15.IsTwinkle = false;
-            myListSubItem15.Name = "Item";
-            myListSubItem15.Url = null;
-            myListSubItem16.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem16.HeadImage")));
-            myListSubItem16.ID = 0;
-            myListSubItem16.Info = "信息";
-            myListSubItem16.IsTwinkle = false;
-            myListSubItem16.Name = "Item";
-            myListSubItem16.Url = null;
-            myListSubItem17.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem17.HeadImage")));
-            myListSubItem17.ID = 0;
-            myListSubItem17.Info = "信息";
-            myListSubItem17.IsTwinkle = false;
-            myListSubItem17.Name = "Item";
-            myListSubItem17.Url = null;
-            myListSubItem18.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem18.HeadImage")));
-            myListSubItem18.ID = 0;
-            myListSubItem18.Info = "信息";
-            myListSubItem18.IsTwinkle = false;
-            myListSubItem18.Name = "Item";
-            myListSubItem18.Url = null;
-            myListSubItem19.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem19.HeadImage")));
-            myListSubItem19.ID = 0;
-            myListSubItem19.Info = "信息";
-            myListSubItem19.IsTwinkle = false;
-            myListSubItem19.Name = "Item";
-            myListSubItem19.Url = null;
-            myListSubItem20.HeadImage = ((System.Drawing.Image)(resources.GetObject("myListSubItem20.HeadImage")));
-            myListSubItem20.ID = 0;
-            myListSubItem20.Info = "信息";
-            myListSubItem20.IsTwinkle = false;
-            myListSubItem20.Name = "Item";
-            myListSubItem20.Url = null;
             myListItem1.SubItems.AddRange(new Windows.Forms.Controls.MyList.MyListSubItem[] {
             myListSubItem1,
             myListSubItem2,
@@ -557,23 +502,36 @@
             myListSubItem11,
             myListSubItem12,
             myListSubItem13,
-            myListSubItem14,
-            myListSubItem15,
-            myListSubItem16,
-            myListSubItem17,
-            myListSubItem18,
-            myListSubItem19,
-            myListSubItem20});
+            myListSubItem14});
             myListItem1.Text = "Item";
-            this.myList1.Items.AddRange(new Windows.Forms.Controls.MyList.MyListItem[] {
+            this.myList2.Items.AddRange(new Windows.Forms.Controls.MyList.MyListItem[] {
             myListItem1});
-            this.myList1.Location = new System.Drawing.Point(4, 3);
+            this.myList2.Location = new System.Drawing.Point(1, 3);
+            this.myList2.Name = "myList2";
+            this.myList2.ScrollArrowBackColor = System.Drawing.Color.Silver;
+            this.myList2.ScrollBackColor = System.Drawing.Color.Transparent;
+            this.myList2.ScrollSliderDefaultColor = System.Drawing.Color.LightGray;
+            this.myList2.ScrollSliderDownColor = System.Drawing.Color.Gainsboro;
+            this.myList2.Size = new System.Drawing.Size(259, 671);
+            this.myList2.SubItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myList2.SubItemSelectColor = System.Drawing.Color.DeepSkyBlue;
+            this.myList2.TabIndex = 1;
+            this.myList2.Text = "myList2";
+            // 
+            // myList1
+            // 
+            this.myList1.BackColor = System.Drawing.Color.White;
+            this.myList1.IconSizeMode = Windows.Forms.Controls.MyList.MyListItemIcon.SuperSmall1;
+            this.myList1.IsShowImage = false;
+            this.myList1.ItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myList1.ItemMouseOnColor = System.Drawing.Color.LightSkyBlue;
+            this.myList1.Location = new System.Drawing.Point(3, 60);
             this.myList1.Name = "myList1";
             this.myList1.ScrollArrowBackColor = System.Drawing.Color.Silver;
             this.myList1.ScrollBackColor = System.Drawing.Color.Transparent;
             this.myList1.ScrollSliderDefaultColor = System.Drawing.Color.LightGray;
             this.myList1.ScrollSliderDownColor = System.Drawing.Color.Gainsboro;
-            this.myList1.Size = new System.Drawing.Size(321, 668);
+            this.myList1.Size = new System.Drawing.Size(259, 614);
             this.myList1.SubItemColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myList1.SubItemSelectColor = System.Drawing.Color.DeepSkyBlue;
             this.myList1.TabIndex = 0;
@@ -588,13 +546,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 756);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.qqGlassButton1);
             this.Controls.Add(this.myListBox1);
             this.Controls.Add(this.qqTextBox2);
             this.Name = "FrmApp";
             this.ShowIcon = false;
             this.Text = "";
-            ((System.ComponentModel.ISupportInitialize)(this.qqGlassButton1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -605,9 +561,9 @@
 
         private Forms.Controls.QQControls.QQTextBox qqTextBox2;
         private Forms.Controls.MyListBox.MyListBox myListBox1;
-        private Forms.Controls.QQControls.QQGlassButton qqGlassButton1;
         private System.Windows.Forms.Panel panel1;
         private Forms.Controls.MyList.MyList myList1;
+        private Forms.Controls.MyList.MyList myList2;
     }
 }
 
